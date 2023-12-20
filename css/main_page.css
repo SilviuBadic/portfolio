@@ -2,15 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body{
   background-color: white;
+  width: 100%;
 }
 
 .main_box{
   display: grid;
-  grid-template-columns: 1;
+  grid-template-columns: 1fr;
+  width: 100%;
 }
 
 .header{
@@ -22,20 +25,84 @@ body{
   font-size: 22px;
   position: fixed;
   z-index: 1000;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1000px){
+  body{
+    background-color: white;
+    width: 100%;
+  }
+  .first_grid .header .main_elements{
+    padding-left: 50px;
+    width: 200px;
+  }
+  .first_grid .header .main_elements li{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .first_grid .header .main_elements img{
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+      vertical-align: middle;
+  }
+
+  .header{
+    height: 100px;
+    width: 30%;
+    background-color: white;
+    position: relative;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    position: fixed;
+    z-index: 1000;
+    overflow: hidden;
+
+  }
+  .main_area_box .description p{
+    margin-left: -250px;
+    width: 100%;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 50%;
+
+  }
+  .main_area_box .buttons{
+    display: block;
+    height: 200px;
+    width: 500px;
+    align-items: center;
+  
+  }
+  
+  .main_area_box .buttons .project_buttons{
+    width: 400px;
+    display: flex;
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+  
 }
 
 .header .main_elements{
   position: absolute;
   display: flex;
-  right: 20px;
+  right: 0px;
   top: 30px;
   position: sticky;
+  
 }
 
 .header .main_elements li{
   display: inline-block;
   margin-right: 14px;
   margin-left: 14px;
+  
 }
 
 .header .main_elements img{
@@ -61,8 +128,7 @@ vertical-align: middle;
 
 .main_area_box{
   margin-top: 200px;
-  margin-left: 300px;
-  display: block;
+  width: 100%;
 }
 
 .main_area_box .myname{
@@ -74,9 +140,12 @@ vertical-align: middle;
   font-family: sans-serif, Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 600;
+  padding-left: 300px;
+  overflow: hidden;
+
 }
 
-.main_area .buttons{
+.main_area_box .buttons{
   display: block;
   height: 200px;
   width: 100%;
@@ -104,6 +173,7 @@ vertical-align: middle;
   padding-top: 30px;
   text-align: center;
   align-items: center;
+  margin-left: 300px;
 }
 
 .buttons .project_buttons li{
@@ -270,6 +340,7 @@ vertical-align: middle;
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
+  overflow: hidden;
 }
 
 .my_skills_listed{
@@ -516,9 +587,9 @@ left: 400px;
 
 .submit_area{
   height: 100px;
-  width: 100%;
+  width: 350px;
   display: block;
-  margin-left: 320px;
+  margin-left: 250px;
   margin-top: 30px;
 }
 
