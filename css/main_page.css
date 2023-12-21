@@ -28,65 +28,82 @@ body{
   overflow: hidden;
 }
 
-@media screen and (max-width: 1000px){
-  body{
-    background-color: white;
-    width: 100%;
-  }
-  .first_grid .header .main_elements{
-    padding-left: 50px;
-    width: 200px;
-  }
-  .first_grid .header .main_elements li{
-    display: inline-block;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-
-  .first_grid .header .main_elements img{
-      width: 25px;
-      height: 25px;
-      cursor: pointer;
-      vertical-align: middle;
-  }
-
-  .header{
-    height: 100px;
-    width: 30%;
-    background-color: white;
-    position: relative;
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    position: fixed;
-    z-index: 1000;
-    overflow: hidden;
-
-  }
+@media screen and (max-width: 474px){
   .main_area_box .description p{
     margin-left: -250px;
-    width: 100%;
+    width: 30%;
     font-family: sans-serif, Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    width: 50%;
+    font-size: 16px;
+  }
+
+  .main_box .first_grid .header{
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  position: fixed;
+  z-index: 1000;
+  overflow: hidden;
+  width: 270px;
 
   }
-  .main_area_box .buttons{
-    display: block;
-    height: 200px;
-    width: 500px;
-    align-items: center;
+
+  .main_box .first_grid .header .main_elements img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+    }
+
+    .main_box .main_area_box .buttons{
+      display: block;
+      height: 200px;
+      width: 100%;
+      align-items: center;   
+      border: 1px solid red; 
+    }
+
+    .main_box .main_area_box .buttons .project_buttons{
+      border: 1px solid red;
+      margin-left: 50px;
+    }
+
+    .main_box .main_area_box .buttons .project_buttons .dynamic_button{
+      font-size: 12px;
+      padding: 2px;
+    }
+
   
-  }
-  
-  .main_area_box .buttons .project_buttons{
-    width: 400px;
-    display: flex;
-    padding-top: 30px;
-    text-align: center;
-    align-items: center;
-    margin-left: 50px;
-  }
-  
+    .my_skills .main_skills_box{
+      border: 1px solid red;
+      width: 250px;
+      margin-left: 50px;
+    }
+
+    .my_skills .main_skills_box .skills_title h1{
+      font-size: 16px;
+    }
+
+    .my_skills .main_skills_box .skills_elements h2{
+      font-size: 12px;
+    }
+
+    .my_skills .main_skills_box .skills_elements2 h3{
+      font-size: 12px;
+    }
+
+    .my_skills .main_skills_box .skills_buttons .design_skill_1{
+      font-size: 10px;
+    }
+    .my_skills .main_skills_box .skills_buttons .design_skill_2{
+      font-size: 10px;
+    }
+    .my_skills .main_skills_box .skills_buttons .design_skill_3{
+      font-size: 10px;
+    }
+    
 }
 
 .header .main_elements{
@@ -95,7 +112,6 @@ body{
   right: 0px;
   top: 30px;
   position: sticky;
-  
 }
 
 .header .main_elements li{
@@ -404,6 +420,19 @@ vertical-align: middle;
 position: absolute;
 top: 280px;
 left: 400px;
+}
+
+@media screen and (max-width: 600px){
+  .my_skills .main_skills_box .programming_pic{
+    text-align: left;
+  }
+
+  .my_skills .main_skills_box .programming_pic img{
+    opacity: 0.5;
+    border-radius: 5px;
+    height: 200px;
+    border-radius: 20px;
+  }
 }
 
 .main_skills_box{
