@@ -6,7 +6,7 @@ function myFunction() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
-    itImage.style.marginLeft ="200px";
+    itImage.style.marginLeft ="100px";
     itImage.style.transitionDuration = "1s";
     itImage.style.transitionDelay = "0.2s";
     itImage.style.rotate = "5deg";
@@ -59,7 +59,7 @@ function myFunction5() {
   } else {
     x.style.display = "block";
     x.style.paddingLeft = "1050px";
-    itImage.style.marginLeft ="-200px";
+    itImage.style.marginLeft ="-100px";
     itImage.style.rotate = "-5deg";
   }
 }

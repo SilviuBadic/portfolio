@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+
 }
 
 body{
@@ -36,10 +36,10 @@ body{
 
 
   .main_area_box .description p{
-    margin-left: -250px;
+    margin-left: -260px;
     width: 35%;
     font-family: sans-serif, Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 22px;
   }
   
   .main_box .first_grid .header{
@@ -66,16 +66,19 @@ body{
       height: 200px;
       width: 200px;
       align-items: center;   
-      border: 1px solid red; 
+     
     }
 
     .main_box .main_area_box .buttons .project_buttons{
-      border: 1px solid red;
-      margin-left: 50px;
+    
+      margin-left: 40px;
+
     }
 
+  
+
     .main_box .main_area_box .buttons .project_buttons .dynamic_button{
-      font-size: 14px;
+      font-size: 18px;
       padding: 2px;
     }
 
@@ -86,15 +89,15 @@ body{
     }
 
     .my_skills .main_skills_box .skills_title h1{
-      font-size: 16px;
+      font-size: 18px;
     }
 
     .my_skills .main_skills_box .skills_elements h2{
-      font-size: 12px;
+      font-size: 14px;
     }
 
     .my_skills .main_skills_box .skills_elements2 h3{
-      font-size: 12px;
+      font-size: 14px;
     }
 
     .my_skills .main_skills_box .skills_buttons .design_skill_1{
@@ -110,7 +113,7 @@ body{
     }
     .my_skills .programming_pic{
       position: absolute;
-      top: 220px;
+      top: 250px;
       left: 5px;
     }
     .my_skills .programming_pic img{
@@ -126,7 +129,7 @@ body{
       margin-left: -100px;
     }
     .my_skills .small_logo .description_skill{
-      font-size: 10px;
+      font-size: 8px;
       margin-left: -100px;
      
     }
@@ -138,7 +141,8 @@ body{
       height: 300px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      border: 1px solid red;
+    
+      margin-top: -20px;
     }
    
     .my_skills .main_skills_box .my_skills_listed .design_skills{
@@ -146,11 +150,11 @@ body{
     }
 
     .my_skills .main_skills_box .my_skills_listed .dev_skills .small_logo{
-      border: 1px solid red;
+    
       width: 100%;
     }
     .my_skills .main_skills_box .my_skills_listed .my_hobbies .small_logo{
-      border: 1px solid red;
+    
       width: 100%;
     }
 
@@ -162,7 +166,7 @@ body{
     }
 
     .main_projects_box .title_projects{
-      border: 1px solid red;
+    
       width: 100%;
     }
     .main_projects_box .title_projects h2{
@@ -205,7 +209,7 @@ body{
       margin-top: 30px;
     }
     .main_box .about_box .picture_and_description .profile_picture img{
-      height: 200px; 
+      height: 150px; 
       margin-left: 20px;
       margin-top: 25px;
       transform: rotate(7deg);
@@ -219,16 +223,16 @@ body{
 
     .main_box .about_box .picture_and_description .description_about_me .summary_ab_me{
       display: inline-block;
-      border: 1px solid red;
-      margin-left: -300px;
-      width: 200px;
+    
+      margin-left: -330px;
+      width: 230px;
     }
 
     .main_box .about_box .picture_and_description .description_about_me .summary_ab_me p{
       font-size: 12px;
     }
     .main_box .about_box .picture_and_description .description_about_me .resume_about{
-      font-size: 12px;
+      font-size: 10px;
     }
 }
 
@@ -281,7 +285,7 @@ vertical-align: middle;
 
 .main_area_box .description{
   font-family: sans-serif, Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 600;
   padding-left: 300px;
   overflow: hidden;
@@ -343,8 +347,8 @@ vertical-align: middle;
 
 
 .my_skills{
-  margin-top: 500px;
-  padding-top: 500px;
+  margin-top: 250px;
+  padding-top: 150px;
   height: 1000px;
   width: 100%;
   background-color:rgb(44, 141, 141);
@@ -385,6 +389,7 @@ vertical-align: middle;
   margin-right: auto;
   text-align: center;
   align-items: center;
+  height: 1500px;
 }
 
 .main_skills_box{
@@ -451,6 +456,7 @@ vertical-align: middle;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
 }
 
 .skills_buttons ul li {
@@ -500,6 +506,9 @@ vertical-align: middle;
   height: 350px;
   flex-direction: column;
   display: none;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
 
 
@@ -508,6 +517,10 @@ vertical-align: middle;
   width: 400px;
   flex-direction: column;
   display: none;
+  margin-left: 500px;
+  width:800px;
+  padding-left: 200px;
+  
 }
 
 .my_skills_listed .my_hobbies{
@@ -515,6 +528,7 @@ vertical-align: middle;
   width: 400px;
   flex-direction: column;
   display: none;
+  margin-left: 200px;
 }
 
 .small_logo{
@@ -545,8 +559,8 @@ vertical-align: middle;
 
 .programming_pic{
 position: absolute;
-top: 280px;
-left: 400px;
+top: 300px;
+left: 500px;
 }
 
 
@@ -613,8 +627,8 @@ left: 400px;
   height: 500px;
   object-fit: cover;
   object-position: center;
-  margin-left: 120px;
-  margin-top: 25px;
+  margin-left: 180px;
+  margin-top: 40px;
   transform: rotate(7deg);
 }
 
@@ -736,7 +750,7 @@ left: 400px;
   width: 350px;
   display: block;
   margin-left: 80px;
-  margin-top: 0px;
+  margin-top: 30px;
 }
 
 .submit_area input[type=submit]{
@@ -858,7 +872,6 @@ textarea.holder:hover{
   margin-right: auto;
   margin-top: 100px;
   transform: skewY(5deg);
-  border: 1px solid green;
 }
 
 .title_projects{
@@ -1107,18 +1120,164 @@ textarea.holder:hover{
 
   .main_box .basement .basement_centered .basement_list{
     text-align: left;
-    padding-left: 130px;
+    padding-left: 190px;
   }
+  
 
   .main_box .basement .basement_box h3{
     text-align: left;
-    font-size: 12px;
-    padding-left: 10px;
+    font-size: 10px;
+    padding-left: 65px;
   }
 
   .main_box .basement .basement_box .my_name{
-    padding-left: 150px;
+    padding-left: 65px;
   }
 
  
+}
+
+@media (min-width: 1280px){
+
+  .about{
+    width: 100%;
+  }
+
+  .about .about_box{
+   margin-left: auto;
+   margin-right: auto;
+
+  }
+
+  .about .about_box .profile_picture img{
+    margin-left: 100px;
+  }
+
+  .about .main_about h1{
+    font-size: 32px;
+  }
+  .summary_ab_me p{
+    width: 1100px;
+    padding-top: 10px;
+    font-size: 26px;
+    margin-left: -100px;
+  }
+}
+
+@media (min-width: 1536px){
+
+  .about{
+    width: 100%;
+  }
+
+  .about .about_box{
+   margin-left: auto;
+   margin-right: auto;
+
+  }
+
+  .main_box .buttons .dynamic_button{
+    font-size: 26px;
+  }
+  .header .main_elements li{
+    padding-left: 20px;
+  }
+
+  .header .main_elements img{
+    width: 50px;
+    height: 50px;
+    }
+
+  .about .about_box .profile_picture img{
+    margin-left: 500px;
+    
+  }
+
+  .about .main_about h1{
+    font-size: 32px;
+  }
+  .summary_ab_me p{
+    width: 1300px;
+    padding-top: 10px;
+    font-size: 25px;
+    margin-left: 0px;
+  }
+
+  .resume_about{
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+
+  .main_area_box .description{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 38px;
+   
+  
+  }
+
+}
+
+@media (min-width: 1024px){
+  .my_skills .programming_pic img{
+    margin-left: -200px;
+  }
+
+  .about{
+    width: 100%;
+  }
+
+  .about .about_box{
+   margin-left: auto;
+   margin-right: auto;
+
+  }
+
+  .about .about_box .profile_picture img{
+    margin-left: 100px;
+  }
+
+  .about .main_about h1{
+    font-size: 32px;
+  }
+  .summary_ab_me p{
+    width: 1100px;
+    padding-top: 10px;
+    font-size: 26px;
+    margin-left: -100px;
+  }
+}
+
+@media (min-width: 768px){
+
+  .about{
+    width: 100%;
+  }
+
+  .about .about_box{
+   margin-left: auto;
+   margin-right: auto;
+
+  }
+  .about .about_box .profile_picture{
+    margin-top: 20px;
+  }
+
+  .about .about_box .profile_picture img{
+    margin-left: 40px;
+    padding: 50px;
+  }
+
+  .about .main_about h1{
+    font-size: 28px;
+  }
+  .summary_ab_me p{
+    width: 800px;
+    padding-top: 10px;
+    font-size: 22px;
+    margin-left: -80px;
+  }
+
+  .programming_pic img{
+    margin-left: -260px;
+  }
 }
