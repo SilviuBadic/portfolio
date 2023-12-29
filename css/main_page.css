@@ -28,214 +28,6 @@ body{
   overflow: hidden;
 }
 
-@media screen and (max-width: 475px){
-  .main_box{
-    width: 100%;
-    overflow: hidden;
-  }
-
-
-  .main_area_box .description p{
-    margin-left: -260px;
-    width: 35%;
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
-    font-size: 22px;
-  }
-  
-  .main_box .first_grid .header{
-  height: 100px;
-  width: 100%;
-  background-color: white;
-  position: relative;
-  font-family: sans-serif, Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  position: fixed;
-  z-index: 1000;
-  overflow: hidden;
-  }
-  
-  .main_box .first_grid .header .main_elements img{
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    vertical-align: middle;
-    }
-
-    .main_box .main_area_box .buttons{
-      display: block;
-      height: 200px;
-      width: 200px;
-      align-items: center;   
-     
-    }
-
-    .main_box .main_area_box .buttons .project_buttons{
-    
-      margin-left: 40px;
-
-    }
-
-  
-
-    .main_box .main_area_box .buttons .project_buttons .dynamic_button{
-      font-size: 18px;
-      padding: 2px;
-    }
-
-  
-    .my_skills .main_skills_box{
-      width: 350px;
-      margin-left: 20px;
-    }
-
-    .my_skills .main_skills_box .skills_title h1{
-      font-size: 18px;
-    }
-
-    .my_skills .main_skills_box .skills_elements h2{
-      font-size: 14px;
-    }
-
-    .my_skills .main_skills_box .skills_elements2 h3{
-      font-size: 14px;
-    }
-
-    .my_skills .main_skills_box .skills_buttons .design_skill_1{
-      font-size: 10px;
-      
-      
-    }
-    .my_skills .main_skills_box .skills_buttons .design_skill_2{
-      font-size: 10px;
-    }
-    .my_skills .main_skills_box .skills_buttons .design_skill_3{
-      font-size: 10px;
-    }
-    .my_skills .programming_pic{
-      position: absolute;
-      top: 250px;
-      left: 5px;
-    }
-    .my_skills .programming_pic img{
-      opacity: 0.5;
-      border-radius: 2px;
-      height:150px;
-      border-radius: 20px;
-    }
-    .my_skills .small_logo img{
-      width: 25px;
-      height: 25px;
-    
-      margin-left: -100px;
-    }
-    .my_skills .small_logo .description_skill{
-      font-size: 8px;
-      margin-left: -100px;
-     
-    }
-
-    .my_skills .main_skills_box .my_skills_listed{
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      height: 300px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    
-      margin-top: -20px;
-    }
-   
-    .my_skills .main_skills_box .my_skills_listed .design_skills{
-      width: 100%;
-    }
-
-    .my_skills .main_skills_box .my_skills_listed .dev_skills .small_logo{
-    
-      width: 100%;
-    }
-    .my_skills .main_skills_box .my_skills_listed .my_hobbies .small_logo{
-    
-      width: 100%;
-    }
-
-  
-    .projects .main_projects_box{
-      width: 100%;
-      border: 10px solid green;
-      height: 100px;
-    }
-
-    .main_projects_box .title_projects{
-    
-      width: 100%;
-    }
-    .main_projects_box .title_projects h2{
-      font-size: 12px;
-    }
-
-    .main_projects_box .projects_aria{
-      width: 80%;
-      height: 2600px;
-      align-items: center;
-      margin-left: auto;
-      margin-right: auto;
-      display: grid;
-      grid-template-columns: 1fr;
-      flex-direction: column;
-      margin-top: -100px;
-      margin-bottom: 80px;
-    }
-
-    .main_box .about{
-      width: 100%;
-    }
-
-    .main_box .about_box{
-      width: 100%;
-      border: 3px solid black;
-    }
-
-    .main_box .about_box .main_about{
-      width: 200px;
-      margin-left: 100px;
-      
-    }
-
-    .main_box .about_box .main_about h1{
-      font-size: 18px;
-    }
-
-    .main_box .about_box .picture_and_description .profile_picture{
-      margin-top: 30px;
-    }
-    .main_box .about_box .picture_and_description .profile_picture img{
-      height: 150px; 
-      margin-left: 20px;
-      margin-top: 25px;
-      transform: rotate(7deg);
-     }
-
-     .main_box .about_box .picture_and_description .description_about_me{
-      height: 50%;
-      width: 50%;
-      display: inline-block;
-    }
-
-    .main_box .about_box .picture_and_description .description_about_me .summary_ab_me{
-      display: inline-block;
-    
-      margin-left: -330px;
-      width: 230px;
-    }
-
-    .main_box .about_box .picture_and_description .description_about_me .summary_ab_me p{
-      font-size: 12px;
-    }
-    .main_box .about_box .picture_and_description .description_about_me .resume_about{
-      font-size: 10px;
-    }
-}
-
 
 .header .main_elements{
   position: absolute;
@@ -1104,41 +896,7 @@ textarea.holder:hover{
   padding-left: 6px;
 }
 
-@media screen and (max-width: 475px){
-  .main_box .basement .basement_box{
-    width: 600px;
-
-    margin-left: 0;
-    padding-left: 0px;
-  }
-
-  .main_box .basement .basement_centered{
-    width: 600px;
-    margin-left: 0;
-    padding-left: 0px;
-  }
-
-  .main_box .basement .basement_centered .basement_list{
-    text-align: left;
-    padding-left: 190px;
-  }
-  
-
-  .main_box .basement .basement_box h3{
-    text-align: left;
-    font-size: 10px;
-    padding-left: 65px;
-  }
-
-  .main_box .basement .basement_box .my_name{
-    padding-left: 65px;
-  }
-
- 
-}
-
-@media (min-width: 1280px){
-
+@media (min-width: 1024px){
   .about{
     width: 100%;
   }
@@ -1162,7 +920,233 @@ textarea.holder:hover{
     font-size: 26px;
     margin-left: -100px;
   }
+  .programming_pic{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 300px;
+  }
+
+
+  .programming_pic img{
+    width: 800px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: -850px;
+  }
+  .my_skills_listed{
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 80%;
+  }
+
+  .my_skills_listed .design_skills{
+    margin-left: -50px;
 }
+
+  .my_skills .my_skills_listed .my_hobbies{
+    padding-left: 0px;
+    font-size: 18px;  
+  }
+
+  .about .about_box .profile_picture img{
+    margin-left: 20px;
+    height: 550px;
+    margin-top: -20px;
+ } 
+
+}
+
+
+@media (min-width: 1280px){
+
+  .about{
+    width: 100%;
+  }
+
+  .about .about_box{
+   margin-left: auto;
+   margin-right: auto;
+
+  }
+
+  .main_box .buttons .dynamic_button{
+    font-size: 24px;
+  }
+  .header .main_elements li{
+    padding-left: 20px;
+  }
+
+  .header .main_elements img{
+    width: 42px;
+    height: 42px;
+    }
+
+    .header .main_elements img:hover{
+    scale: 1.1;
+    width: 42px;
+    height: 42px;
+      }
+
+  .about .picture_and_description .description_about_me{
+    margin-left: 20px;
+  }
+
+  .about .main_about h1{
+    font-size: 36px;
+  }
+  .about .summary_ab_me p{
+    width: 950px;
+    padding-top: 10px;
+    margin-left: 200px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .about .resume_about{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .main_area_box .description{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 36px;
+  }
+
+  .programming_pic{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 800px;
+  }
+
+
+  .programming_pic img{
+    width: 800px;
+    height: 500px;
+  }
+
+  .my_skills .skills_title h1{
+    font-size: 36px;
+  }
+
+  .my_skills .skills_buttons .design_skill_1{
+    font-size: 24px;
+  }
+  .my_skills .skills_buttons .design_skill_2{
+    font-size: 24px;
+  }
+  .my_skills .skills_buttons .design_skill_3{
+    font-size: 24px;
+  }
+
+  .main_skills_box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  
+  }
+  .my_skills_listed{
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 80%;
+  }
+
+  .my_skills_listed .design_skills{
+    margin-left: -50px;
+}
+
+  .my_skills_listed .my_hobbies{
+    margin-left: 280px;
+    font-size: 18px;  
+  }
+
+  .title_projects h2{
+    font-size: 36px;
+  }
+
+  .main_projects_box {
+    width: 80%;
+  }
+
+  .main_projects_box .projects_aria{
+    width: 80%;
+  }
+
+  .main_projects_box .projects_aria .left_side{
+    width: 800px;
+    margin-left: -200px;
+  }
+
+  .main_projects_box .projects_aria .left_side .project_title h2{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .main_projects_box .projects_aria .left_side .used_tools button{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .main_projects_box .projects_aria .left_side .description_projects p{
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .main_projects_box .projects_aria .left_side .notes p{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .main_projects_box .projects_aria .left_side .live_code button{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .main_projects_box .right_side{
+    margin-left: 50px;
+  }
+
+  .main_projects_box .right_side img{
+    margin-left: 50px;
+    width: 650px;
+  }
+
+  .main_projects_box .more_projects .more_proj_text{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0px;
+  }
+  .main_projects_box .more_projects button{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -200px;
+  }
+ 
+  .contact .text_chat h2{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .contact .contact_title{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .small_logo img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .small_logo .description_skill{
+    padding-top: 20px;
+  }
+}
+
 
 @media (min-width: 1536px){
 
@@ -1184,70 +1168,380 @@ textarea.holder:hover{
   }
 
   .header .main_elements img{
-    width: 50px;
-    height: 50px;
+    width: 44px;
+    height: 44px;
     }
 
-  .about .about_box .profile_picture img{
-    margin-left: 500px;
-    
-  }
+    .header .main_elements img:hover{
+    scale: 1.1;
+    width: 44px;
+    height: 44px;
+      }
 
+ .about .about_box .profile_picture img{
+    margin-left: 100px;
+    height: 650px;
+    margin-top: -20px;
+ } 
+.about .about_box{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+}
+
+
+  .about .about_box .profile_picture{
+    margin-left: 100px;
+  }
+ 
   .about .main_about h1{
-    font-size: 32px;
+    font-size: 36px;
   }
-  .summary_ab_me p{
-    width: 1300px;
+  .about .summary_ab_me p{
+    width: 950px;
     padding-top: 10px;
-    font-size: 25px;
     margin-left: 0px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
   }
 
-  .resume_about{
+  .about .resume_about{
     margin-top: 50px;
     margin-left: 0px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .main_area_box .description{
     font-family: sans-serif, Arial, Helvetica, sans-serif;
-    font-size: 38px;
-   
-  
+    font-size: 36px;
   }
 
+  .programming_pic{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 800px;
+  }
+
+
+  .programming_pic img{
+    width: 800px;
+    height: 500px;
+  }
+
+  .my_skills .skills_title h1{
+    font-size: 36px;
+  }
+
+  .my_skills .skills_buttons .design_skill_1{
+    font-size: 24px;
+  }
+  .my_skills .skills_buttons .design_skill_2{
+    font-size: 24px;
+  }
+  .my_skills .skills_buttons .design_skill_3{
+    font-size: 24px;
+  }
+
+  .main_skills_box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  
+  }
+  .my_skills_listed{
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 80%;
+  }
+
+  .my_skills_listed .design_skills{
+    margin-left: -50px;
 }
 
-@media (min-width: 1024px){
-  .my_skills .programming_pic img{
+  .my_skills_listed .my_hobbies{
+    margin-left: 280px;
+    font-size: 18px;  
+  }
+
+  .title_projects h2{
+    font-size: 36px;
+  }
+
+  .main_projects_box {
+    width: 80%;
+  }
+
+  .main_projects_box .projects_aria{
+    width: 80%;
+  }
+
+  .main_projects_box .projects_aria .left_side{
+    width: 800px;
     margin-left: -200px;
   }
 
-  .about{
-    width: 100%;
+  .main_projects_box .projects_aria .left_side .project_title h2{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
   }
 
-  .about .about_box{
-   margin-left: auto;
-   margin-right: auto;
-
+  .main_projects_box .projects_aria .left_side .used_tools button{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
   }
 
-  .about .about_box .profile_picture img{
-    margin-left: 100px;
-  }
-
-  .about .main_about h1{
-    font-size: 32px;
-  }
-  .summary_ab_me p{
-    width: 1100px;
-    padding-top: 10px;
+  .main_projects_box .projects_aria .left_side .description_projects p{
     font-size: 26px;
-    margin-left: -100px;
+    font-family: 'Times New Roman', Times, serif;
   }
+
+  .main_projects_box .projects_aria .left_side .notes p{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .main_projects_box .projects_aria .left_side .live_code button{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .main_projects_box .right_side{
+    margin-left: 50px;
+  }
+
+  .main_projects_box .right_side img{
+    margin-left: 50px;
+    width: 650px;
+  }
+
+  .main_projects_box .more_projects .more_proj_text{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0px;
+  }
+  .main_projects_box .more_projects button{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -200px;
+  }
+ 
+  .contact .text_chat h2{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .contact .contact_title{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .small_logo img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .small_logo .description_skill{
+    padding-top: 20px;
+  }
+
+.icons_credits{
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-decoration: none;
 }
 
-@media (min-width: 768px){
+
+.icons_credits a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+
+@media screen and (max-width: 700px){
+  .main_box{
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+  .main_area_box .description p{
+    margin-left: -260px;
+    width: 300px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+  }
+  
+  .main_box .first_grid .header{
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  position: fixed;
+  z-index: 1000;
+  overflow: hidden;
+  }
+  
+  .main_box .first_grid .header .main_elements img{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    vertical-align: middle;
+    }
+
+    .main_box .main_area_box .buttons{
+      display: block;
+      height: 200px;
+      width: 200px;
+      align-items: center;   
+     
+    }
+
+    .main_box .main_area_box .buttons .project_buttons{
+      margin-left: 40px;
+    }
+
+  
+    .my_skills{
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      border: 1px solid red;
+      margin-left: 0;
+    }
+
+    .main_box .main_area_box .buttons .project_buttons .dynamic_button{
+      font-size: 18px;
+      padding: 2px;
+    }
+
+  
+    .my_skills .main_skills_box{
+      width: 350px;
+      margin-left: 20px;
+    }
+
+    .my_skills .main_skills_box .skills_title h1{
+      font-size: 18px;
+    }
+
+    .my_skills .main_skills_box .skills_elements h2{
+      font-size: 14px;
+    }
+
+    .my_skills .main_skills_box .skills_elements2 h3{
+      font-size: 14px;
+    }
+
+    .my_skills .main_skills_box .skills_buttons .design_skill_1{
+      font-size: 10px;
+      
+      
+    }
+    .my_skills .main_skills_box .skills_buttons .design_skill_2{
+      font-size: 10px;
+    }
+    .my_skills .main_skills_box .skills_buttons .design_skill_3{
+      font-size: 10px;
+    }
+    .my_skills .programming_pic{
+      position: absolute;
+      top: 250px;
+      left: 5px;
+    }
+    .my_skills .programming_pic img{
+      opacity: 0.5;
+      border-radius: 2px;
+      height:150px;
+      border-radius: 20px;
+    }
+    .my_skills .small_logo img{
+      width: 25px;
+      height: 25px;
+    
+      margin-left: -100px;
+    }
+    .my_skills .small_logo .description_skill{
+      font-size: 8px;
+      margin-left: -100px;
+     
+    }
+
+    .my_skills .main_skills_box .my_skills_listed{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 300px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    
+      margin-top: -20px;
+    }
+   
+    .my_skills .main_skills_box .my_skills_listed .design_skills{
+      width: 100%;
+      margin-left: 20px;
+    }
+
+    .my_skills .main_skills_box .my_skills_listed .dev_skills .small_logo{
+      margin-left: -600px;
+      width: 100%;
+    }
+    .my_skills .main_skills_box .my_skills_listed .my_hobbies .small_logo{
+      margin-left: -1070px;
+      width: 100%;
+    }
+
+    .programming_pic img{
+      width: 300px;
+      margin-left: -480px;
+      margin-top: 50px;
+    }
+
+    .projects{
+      border: 1px solid red;
+      width: 400px;
+    }
+
+    .projects .main_projects_box{
+      width: 100%;
+    }
+
+    .projects .main_projects_box .title_projects .title_projects{
+      margin-left: 0;
+    }
+
+    .projects .main_projects_box .projects_aria{
+      display: flex;
+      flex-direction: row;
+    }
+    .projects .main_projects_box .projects_aria .mainbox_projects{
+        width: 50px;
+      }
+      
+      .mainbox_projects .left_side{
+        display: inline-block;
+        height: 100%;
+       
+      }
+      
+      .mainbox_projects .right_side{
+        display: inline-block;
+        height: 100%;
+      }
+
+  }
+  
+
+@media (min-width: 701px){
 
   .about{
     width: 100%;
@@ -1258,26 +1552,33 @@ textarea.holder:hover{
    margin-right: auto;
 
   }
-  .about .about_box .profile_picture{
-    margin-top: 20px;
+
+  .main_box .buttons .dynamic_button{
+    font-size: 26px;
+  }
+  .header .main_elements li{
+    padding-left: 20px;
   }
 
-  .about .about_box .profile_picture img{
-    margin-left: 40px;
-    padding: 50px;
-  }
+  .header .main_elements img{
+    width: 44px;
+    height: 44px;
+    }
 
-  .about .main_about h1{
-    font-size: 28px;
-  }
-  .summary_ab_me p{
-    width: 800px;
-    padding-top: 10px;
-    font-size: 22px;
-    margin-left: -80px;
-  }
+    .header .main_elements img:hover{
+    scale: 1.1;
+    width: 44px;
+    height: 44px;
+      }
 
-  .programming_pic img{
-    margin-left: -260px;
-  }
+ .about .about_box .profile_picture img{
+    margin-left: 200px;
+    height: 650px;
+    margin-top: -20px;
+ } 
+.about .about_box{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 }
