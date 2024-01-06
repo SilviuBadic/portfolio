@@ -10,25 +10,25 @@ some HTML and CSS, and in the end I've added some JavaScript code to make it loo
 ## Demo
 
 You can check out the live version here:
-[https://silviubadic.github.io/youtube-layout-remake-html-css/html/index.html](https://silviubadic.github.io/to-do-list-javascript/)
+https://silviubadic.github.io/portfolio/html/index.html
 
 ## Screenshots
-<img width="855" alt="a0" src="https://github.com/SilviuBadic/portfolio/assets/130041755/b684d091-7dc5-4470-8cdc-fc33145b0431">
+<img width="1050" alt="a0" src="https://github.com/SilviuBadic/portfolio/assets/130041755/b684d091-7dc5-4470-8cdc-fc33145b0431">
 
 
 <br>
 <br>
-<img width="843" alt="a1" src="https://github.com/SilviuBadic/portfolio/assets/130041755/a5083ee1-7eb3-4840-8419-a0678686aa41">
+<img width="1050" alt="a1" src="https://github.com/SilviuBadic/portfolio/assets/130041755/a5083ee1-7eb3-4840-8419-a0678686aa41">
 
 
 <br>
 <br>
-<img width="851" alt="a2" src="https://github.com/SilviuBadic/portfolio/assets/130041755/dc86409c-de35-4698-835b-fdb2116b4e06">
+<img width="1050" alt="a2" src="https://github.com/SilviuBadic/portfolio/assets/130041755/dc86409c-de35-4698-835b-fdb2116b4e06">
 
 
 <br>
 <br>
-<img width="860" alt="a4" src="https://github.com/SilviuBadic/portfolio/assets/130041755/ad91f00d-380e-4cca-800a-45ebda3732a9">
+<img width="1050" alt="a4" src="https://github.com/SilviuBadic/portfolio/assets/130041755/ad91f00d-380e-4cca-800a-45ebda3732a9">
 
 
 <br>
