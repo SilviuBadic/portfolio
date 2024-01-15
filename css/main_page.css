@@ -1151,5 +1151,36 @@ margin-top: 100px;
     cursor: pointer;
   }
 
+
+  
+  .about .about_box .profile_picture{
+    margin-left: 10px;
+  }
+
+
+  .about .main_about h1{
+    font-size: 36px;
+  }
+  .about .summary_ab_me p{
+    width: 650px;
+    padding-top: 10px;
+    margin-left: 70px;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .about .resume_about{
+    margin-top: 50px;
+    margin-left: 0px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .main_area_box .description{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 36px;
+  }
+
+
 }
  
