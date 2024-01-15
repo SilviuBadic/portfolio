@@ -6,8 +6,8 @@ function myFunction() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
-    itImage.style.marginLeft ="100px";
-    itImage.style.transitionDuration = "1s";
+    itImage.style.marginRight ="160px";
+    itImage.style.transitionDuration ="2s";
     itImage.style.transitionDelay = "0.2s";
     itImage.style.rotate = "5deg";
     
@@ -21,7 +21,8 @@ function myFunction2() {
     x.style.display = "block";
   } else {
     x.style.display = "none";
-    itImage.style.marginLeft ="0px";
+    itImage.style.marginLeft ="auto";
+    itImage.style.marginRight ="auto";
     itImage.style.rotate = "0deg";
   }
 }
@@ -35,6 +36,8 @@ function myFunction3() {
     x.style.display = "block";
     x.style.marginLeft = "550px";
     itImage.style.opacity = "0.1";
+    itImage.style.marginLeft ="auto";
+    itImage.style.marginRight ="auto";
   }
     
   }
@@ -46,7 +49,8 @@ function myFunction4() {
     x.style.display = "block";
   } else {
     x.style.display = "none";
-    itImage.style.marginLeft ="0px"
+    itImage.style.marginLeft ="auto";
+    itImage.style.marginRight ="auto";
     itImage.style.opacity = "1";
   }
 }
@@ -59,7 +63,9 @@ function myFunction5() {
   } else {
     x.style.display = "block";
     x.style.paddingLeft = "1050px";
-    itImage.style.marginLeft ="-100px";
+    itImage.style.marginLeft ="160px";
+    itImage.style.transitionDuration ="2s";
+    itImage.style.transitionDelay = "0.2s";
     itImage.style.rotate = "-5deg";
   }
 }
@@ -70,8 +76,8 @@ function myFunction6() {
     x.style.display = "block";
   } else {
     x.style.display = "none";
-    itImage.style.marginLeft ="0px"
-    itImage.style.opacity = "1";
+    itImage.style.marginLeft ="auto";
+    itImage.style.marginRight ="auto";
     itImage.style.rotate = "0deg";
   }
 }

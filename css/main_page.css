@@ -5,10 +5,12 @@
 
 }
 
+
 body{
   background-color: white;
   width: 100%;
 }
+
 
 .main_box{
   display: grid;
@@ -32,9 +34,10 @@ body{
 .header .main_elements{
   position: absolute;
   display: flex;
-  right: 0px;
-  top: 30px;
+  right: 20px;
+  top: 50px;
   position: sticky;
+  float: right;
 }
 
 .header .main_elements li{
@@ -51,12 +54,6 @@ cursor: pointer;
 vertical-align: middle;
 }
 
-.header .main_elements{
-  position: absolute;
-  display: flex;
-  right: 20px;
-  top: 30px;
-}
 
 .header .main_elements img:hover{
   width: 34px;
@@ -169,9 +166,9 @@ vertical-align: middle;
 
 .about{
   height: 800px;
-  width: 1748px;
+  width: 100%;
   background-color:rgb(44, 141, 141);
-  transform:skewY(-5deg)
+  transform:skewY(-5deg);
 }
 
 .my_skills{
@@ -191,6 +188,7 @@ vertical-align: middle;
   margin-top: -1100px;
   height: 200px;
   vertical-align: middle;
+  display: flex;
 }
 
 .skills_title{
@@ -200,6 +198,7 @@ vertical-align: middle;
   width: 100%;
   padding: -300px;
   padding-top: 50px;
+  display: block;
 }
 
 .main_skills_box .skills_title h1{
@@ -234,31 +233,35 @@ vertical-align: middle;
 }
 
 .skills_buttons{
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 90%;
-  column-gap: 20px;
-  height: 100px;
+  display: block;
   align-items: center;
-  margin-top: 10px;
- 
+  text-align: center;
+  justify-content:center;
+  column-gap: 20px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content:space-around;
 }
 
 .skills_buttons ul{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  
   
 }
 
 .skills_buttons ul li {
   display: inline-block;
+  margin-right:250px;
+  margin-right:250px;
   align-items: center;
 }
 
 .skills_buttons ul li button{
   font-size: 20px;
   padding: 10px;
+  margin-top: 20px;
   font-family: 'Times New Roman', Times, serif;
   background-color: #fff;
   color: green;
@@ -288,39 +291,34 @@ vertical-align: middle;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   width: 100%;
+  min-height: 600px;
   column-gap: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -500px;
 }
 
 .my_skills_listed .design_skills{
-  width: 300px;
   height: 350px;
   flex-direction: column;
   display: none;
-  margin-left: auto;
-  margin-right: auto;
- 
+  margin-left: 0px;
 }
 
 
 .my_skills_listed .dev_skills{
   display: flex;
-  width: 400px;
   flex-direction: column;
   display: none;
-  margin-left: 500px;
-  width:800px;
-  padding-left: 200px;
+  margin-left: 0px;
   
 }
 
 .my_skills_listed .my_hobbies{
   display: flex;
-  width: 400px;
   flex-direction: column;
   display: none;
-  margin-left: 200px;
+  margin-left: 0px;
 }
 
 .small_logo{
@@ -350,21 +348,19 @@ vertical-align: middle;
 }
 
 .programming_pic{
-position: absolute;
-top: 300px;
-left: 500px;
-}
-
-
-.main_skills_box{
-  position: relative;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+width: 800px;
+text-align: center;
 }
 
 .programming_pic img{
   opacity: 0.5;
   border-radius: 5px;
-  height: 400px;
+  width: 100%;
   border-radius: 50px;
+  object-fit: contain;
 }
 
 .about_box{
@@ -381,7 +377,7 @@ left: 500px;
 .about_box .main_about{
   align-items: center;
   text-align: center;
-  width: 500px;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
   letter-spacing: 2px;
@@ -411,7 +407,7 @@ left: 500px;
 
 .about_box .picture_and_description .description_about_me{
   height: 100%;
-  width: 50%;
+  width: 60%;
   display: inline-block;
 }
 
@@ -425,7 +421,7 @@ left: 500px;
 }
 
 .summary_ab_me{
-  width: 800px;
+  width: 780px;
   height: 500px;
   margin-top: 50px;
 }
@@ -648,7 +644,7 @@ textarea.holder:hover{
 
 
 .projects{
-  height: 3000px;
+  height: 3400px;
   width: 100%;
   background-color:white;
   transform:skewY(-5deg);
@@ -658,7 +654,7 @@ textarea.holder:hover{
 .main_projects_box{
   display: grid;
   grid-template-columns: 1fr;
-  width: 1300px;
+  width: 100%;
   height: 3000px;
   margin-left: auto;
   margin-right: auto;
@@ -666,16 +662,21 @@ textarea.holder:hover{
   transform: skewY(5deg);
 }
 
-.title_projects{
+.main_projects_box .title_projects{
   width: 100%;
-  text-align: center;
-  height: 40px;
+  height: 42px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.title_projects h2{
+.main_projects_box .title_projects h2{
   font-family: 'Times New Roman', Times, serif;
   font-size: 32px;
   letter-spacing: 2px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
 }
 
 .second_grid{
@@ -719,8 +720,8 @@ textarea.holder:hover{
 }
 
 .mainbox_projects{
-  width: 1200px;
-  height: 700px;
+  width: 100%;
+  min-height: 700px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -729,11 +730,6 @@ textarea.holder:hover{
   margin-bottom: 50px;
 }
 
-.mainbox_projects .left_side{
-  display: inline-block;
-  height: 100%;
- 
-}
 
 .mainbox_projects .right_side{
   display: inline-block;
@@ -753,7 +749,7 @@ textarea.holder:hover{
 
 .mainbox_projects .left_side .description_projects{
   width: 100%;
-  height: 300px;
+  min-height: 300px;
   padding-right: 20px;
 }
 
@@ -771,7 +767,7 @@ textarea.holder:hover{
 }
 
 .projects_aria{
-  width: 1200px;
+  width: 1400px;
   height: 2600px;
   align-items: center;
   margin-left: auto;
@@ -813,9 +809,18 @@ textarea.holder:hover{
 }
 
 .mainbox_projects .right_side img{
-  width: 100%;
-  padding-top: 10px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+height: 300px;
+margin-top: 100px;
 }
+
+
+.main_projects_box .right_side img:hover{
+  cursor: pointer;
+}
+
 
 .mainbox_projects .description_projects{
   font-size: 20px;
@@ -864,7 +869,7 @@ textarea.holder:hover{
 .more_projects{
   height: 50px;
   width: 800px;
-  margin-left: -400px;
+  margin-left: -100px;
 }
 
 .more_projects button{
@@ -896,300 +901,6 @@ textarea.holder:hover{
   padding-left: 6px;
 }
 
-@media (min-width: 1024px){
-  .about{
-    width: 100%;
-  }
-
-  .about .about_box{
-   margin-left: auto;
-   margin-right: auto;
-
-  }
-
-  .about .about_box .profile_picture img{
-    margin-left: 100px;
-  }
-
-  .about .main_about h1{
-    font-size: 32px;
-  }
-  .summary_ab_me p{
-    width: 1100px;
-    padding-top: 10px;
-    font-size: 26px;
-    margin-left: -100px;
-  }
-  .programming_pic{
-    width: 800px;
-    height: 500px;
-    position: absolute;
-    left: 300px;
-  }
-
-
-  .programming_pic img{
-    width: 800px;
-    height: 500px;
-    margin-top: 50px;
-    margin-left: -850px;
-  }
-  .my_skills_listed{
-    margin-left: auto;
-    margin-right: auto;
-    height: 600px;
-    width: 80%;
-  }
-
-  .my_skills_listed .design_skills{
-    margin-left: -50px;
-}
-
-  .my_skills .my_skills_listed .my_hobbies{
-    padding-left: 0px;
-    font-size: 18px;  
-  }
-
-  .about .about_box .profile_picture img{
-    margin-left: 20px;
-    height: 550px;
-    margin-top: -20px;
- } 
-
-}
-
-
-@media (min-width: 1280px){
-
-  .about{
-    width: 100%;
-  }
-
-  .about .about_box{
-   margin-left: auto;
-   margin-right: auto;
-
-  }
-
-  .main_box .buttons .dynamic_button{
-    font-size: 24px;
-  }
-  .header .main_elements li{
-    padding-left: 20px;
-  }
-
-  .header .main_elements img{
-    width: 42px;
-    height: 42px;
-    }
-
-    .header .main_elements img:hover{
-    scale: 1.1;
-    width: 42px;
-    height: 42px;
-      }
-
-  .about .picture_and_description .description_about_me{
-    margin-left: 20px;
-  }
-
-  .about .main_about h1{
-    font-size: 36px;
-  }
-  .about .summary_ab_me p{
-    width: 950px;
-    padding-top: 10px;
-    margin-left: 200px;
-    font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .about .resume_about{
-    margin-top: 50px;
-    margin-left: 150px;
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .main_area_box .description{
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
-    font-size: 36px;
-  }
-
-  .programming_pic{
-    width: 800px;
-    height: 500px;
-    position: absolute;
-    left: 800px;
-  }
-
-
-  .programming_pic img{
-    width: 800px;
-    height: 500px;
-  }
-
-  .my_skills .skills_title h1{
-    font-size: 36px;
-  }
-
-  .my_skills .skills_buttons .design_skill_1{
-    font-size: 24px;
-  }
-  .my_skills .skills_buttons .design_skill_2{
-    font-size: 24px;
-  }
-  .my_skills .skills_buttons .design_skill_3{
-    font-size: 24px;
-  }
-
-  .main_skills_box{
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  
-  }
-  .my_skills_listed{
-    margin-left: auto;
-    margin-right: auto;
-    height: 600px;
-    width: 80%;
-  }
-
-  .my_skills_listed .design_skills{
-    margin-left: -50px;
-}
-
-  .my_skills_listed .my_hobbies{
-    margin-left: 280px;
-    font-size: 18px;  
-  }
-
-  .title_projects h2{
-    font-size: 36px;
-  }
-
-  .main_projects_box {
-    width: 80%;
-  }
-
-  .main_projects_box .projects_aria{
-    width: 80%;
-  }
-
-  .main_projects_box .projects_aria .left_side{
-    width: 800px;
-    margin-left: -200px;
-  }
-
-  .main_projects_box .projects_aria .left_side .project_title h2{
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .main_projects_box .projects_aria .left_side .used_tools button{
-    font-size: 21px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .main_projects_box .projects_aria .left_side .description_projects p{
-    font-size: 26px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .main_projects_box .projects_aria .left_side .notes p{
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .main_projects_box .projects_aria .left_side .live_code button{
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .main_projects_box .right_side{
-    margin-left: 50px;
-  }
-
-  .main_projects_box .right_side img{
-    margin-left: 50px;
-    width: 650px;
-  }
-
-  .main_projects_box .more_projects .more_proj_text{
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 0px;
-  }
-  .main_projects_box .more_projects button{
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: -200px;
-  }
- 
-  .contact .text_chat h2{
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .contact .contact_title{
-    font-size: 21px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
-  .small_logo img{
-    width: 60px;
-    height: 60px;
-  }
-
-  .small_logo .description_skill{
-    padding-top: 20px;
-  }
-}
-
-
-@media (min-width: 1536px){
-
-  .about{
-    width: 100%;
-  }
-
-  .about .about_box{
-   margin-left: auto;
-   margin-right: auto;
-
-  }
-
-  .main_box .buttons .dynamic_button{
-    font-size: 26px;
-  }
-  .header .main_elements li{
-    padding-left: 20px;
-  }
-
-  .header .main_elements img{
-    width: 44px;
-    height: 44px;
-    }
-
-    .header .main_elements img:hover{
-    scale: 1.1;
-    width: 44px;
-    height: 44px;
-      }
-
- .about .about_box .profile_picture img{
-    margin-left: 100px;
-    height: 650px;
-    margin-top: -20px;
- } 
-.about .about_box{
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-}
-
 
   .about .about_box .profile_picture{
     margin-left: 100px;
@@ -1218,19 +929,6 @@ textarea.holder:hover{
     font-size: 36px;
   }
 
-  .programming_pic{
-    width: 800px;
-    height: 500px;
-    position: absolute;
-    left: 800px;
-  }
-
-
-  .programming_pic img{
-    width: 800px;
-    height: 500px;
-  }
-
   .my_skills .skills_title h1{
     font-size: 36px;
   }
@@ -1248,23 +946,11 @@ textarea.holder:hover{
   .main_skills_box{
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     width: 80%;
+    display: grid;
+    grid: 1fr;
   
-  }
-  .my_skills_listed{
-    margin-left: auto;
-    margin-right: auto;
-    height: 600px;
-    width: 80%;
-  }
-
-  .my_skills_listed .design_skills{
-    margin-left: -50px;
-}
-
-  .my_skills_listed .my_hobbies{
-    margin-left: 280px;
-    font-size: 18px;  
   }
 
   .title_projects h2{
@@ -1272,17 +958,21 @@ textarea.holder:hover{
   }
 
   .main_projects_box {
-    width: 80%;
+    width: 90%;
   }
 
   .main_projects_box .projects_aria{
     width: 80%;
   }
+  
 
   .main_projects_box .projects_aria .left_side{
-    width: 800px;
-    margin-left: -200px;
+    max-width: 100%;
+    display: inline-block;
+    height: 100%;
   }
+
+
 
   .main_projects_box .projects_aria .left_side .project_title h2{
     font-size: 28px;
@@ -1313,11 +1003,7 @@ textarea.holder:hover{
     margin-left: 50px;
   }
 
-  .main_projects_box .right_side img{
-    margin-left: 50px;
-    width: 650px;
-  }
-
+ 
   .main_projects_box .more_projects .more_proj_text{
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
@@ -1363,222 +1049,296 @@ textarea.holder:hover{
   color: white;
 }
 
+.basement_box h4{
+  color: white;
+  margin-top: 10px;
+}
 
-@media screen and (max-width: 700px){
-  .main_box{
-    width: 100%;
-    overflow: hidden;
+.basement_box h4 a{
+  color: white;
+}
+
+
+@media (max-width: 425px){
+
+  .header .main_elements{
+  position: absolute;
+  display: flex;
+  left: 20px;
+  top: 30px;
+  position: sticky;
+  float: left;
   }
 
+  .header .main_elements li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+  }
+  
+  .header .main_elements img{
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  vertical-align: middle;
+  }
+  
+
+
+
+  .main_area_box{
+    margin-top: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .main_area_box .myname{
+    color: green;
+    font-weight: bold;
+  }
+  
+  .main_area_box .description{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    padding-left: 30px;
+    overflow: hidden;
+    width: 70%;
+  }
 
   .main_area_box .description p{
-    margin-left: -260px;
-    width: 300px;
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    width: 250px;
   }
   
-  .main_box .first_grid .header{
-  height: 100px;
-  width: 100%;
-  background-color: white;
-  position: relative;
-  font-family: sans-serif, Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  position: fixed;
-  z-index: 1000;
-  overflow: hidden;
-  }
-  
-  .main_box .first_grid .header .main_elements img{
-    width: 22px;
-    height: 22px;
-    cursor: pointer;
-    vertical-align: middle;
-    }
-
-    .main_box .main_area_box .buttons{
-      display: block;
-      height: 200px;
-      width: 200px;
-      align-items: center;   
-     
-    }
-
-    .main_box .main_area_box .buttons .project_buttons{
-      margin-left: 40px;
-    }
-
-  
-    .my_skills{
-      width: 100%;
-      text-align: center;
-      margin: 0 auto;
-      border: 1px solid red;
-      margin-left: 0;
-    }
-
-    .main_box .main_area_box .buttons .project_buttons .dynamic_button{
-      font-size: 18px;
-      padding: 2px;
-    }
-
-  
-    .my_skills .main_skills_box{
-      width: 350px;
-      margin-left: 20px;
-    }
-
-    .my_skills .main_skills_box .skills_title h1{
-      font-size: 18px;
-    }
-
-    .my_skills .main_skills_box .skills_elements h2{
-      font-size: 14px;
-    }
-
-    .my_skills .main_skills_box .skills_elements2 h3{
-      font-size: 14px;
-    }
-
-    .my_skills .main_skills_box .skills_buttons .design_skill_1{
-      font-size: 10px;
-      
-      
-    }
-    .my_skills .main_skills_box .skills_buttons .design_skill_2{
-      font-size: 10px;
-    }
-    .my_skills .main_skills_box .skills_buttons .design_skill_3{
-      font-size: 10px;
-    }
-    .my_skills .programming_pic{
-      position: absolute;
-      top: 250px;
-      left: 5px;
-    }
-    .my_skills .programming_pic img{
-      opacity: 0.5;
-      border-radius: 2px;
-      height:150px;
-      border-radius: 20px;
-    }
-    .my_skills .small_logo img{
-      width: 25px;
-      height: 25px;
-    
-      margin-left: -100px;
-    }
-    .my_skills .small_logo .description_skill{
-      font-size: 8px;
-      margin-left: -100px;
-     
-    }
-
-    .my_skills .main_skills_box .my_skills_listed{
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      height: 300px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    
-      margin-top: -20px;
-    }
-   
-    .my_skills .main_skills_box .my_skills_listed .design_skills{
-      width: 100%;
-      margin-left: 20px;
-    }
-
-    .my_skills .main_skills_box .my_skills_listed .dev_skills .small_logo{
-      margin-left: -600px;
-      width: 100%;
-    }
-    .my_skills .main_skills_box .my_skills_listed .my_hobbies .small_logo{
-      margin-left: -1070px;
-      width: 100%;
-    }
-
-    .programming_pic img{
-      width: 300px;
-      margin-left: -480px;
-      margin-top: 50px;
-    }
-
-    .projects{
-      border: 1px solid red;
-      width: 400px;
-    }
-
-    .projects .main_projects_box{
-      width: 100%;
-    }
-
-    .projects .main_projects_box .title_projects .title_projects{
-      margin-left: 0;
-    }
-
-    .projects .main_projects_box .projects_aria{
-      display: flex;
-      flex-direction: row;
-    }
-    .projects .main_projects_box .projects_aria .mainbox_projects{
-        width: 50px;
-      }
-      
-      .mainbox_projects .left_side{
-        display: inline-block;
-        height: 100%;
-       
-      }
-      
-      .mainbox_projects .right_side{
-        display: inline-block;
-        height: 100%;
-      }
-
-  }
-  
-
-@media (min-width: 701px){
-
-  .about{
+  .main_area_box .buttons{
+    display: block;
+    height: 200px;
     width: 100%;
+    align-items: center;
+    
+  }
+  
+  .buttons .project_buttons{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .buttons .project_buttons li{
+    display: inline-block;
+    padding-right: 0px;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .buttons .project_buttons li button{
+    font-size: 14px;
+    padding: 2px;
+    border-radius: 2px;
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    font-weight: bold;
+  }
+  
+  .buttons .project_buttons li button{
+    cursor: pointer;
   }
 
-  .about .about_box{
-   margin-left: auto;
-   margin-right: auto;
+ 
+.main_skills_box{
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: -1500px;
+  height: 200px;
+  vertical-align: middle;
+  display: flex;
+}
 
-  }
-
-  .main_box .buttons .dynamic_button{
-    font-size: 26px;
-  }
-  .header .main_elements li{
-    padding-left: 20px;
-  }
-
-  .header .main_elements img{
-    width: 44px;
-    height: 44px;
-    }
-
-    .header .main_elements img:hover{
-    scale: 1.1;
-    width: 44px;
-    height: 44px;
-      }
-
- .about .about_box .profile_picture img{
-    margin-left: 200px;
-    height: 650px;
-    margin-top: -20px;
- } 
-.about .about_box{
+.skills_title{
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  align-items: center;
+  width: 100%;
+  padding: -20px;
+  padding-top: 50px;
+
+  display: block;
 }
+
+
+.main_skills_box .skills_title h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 2px;
+  padding-left: 120px;
+}
+
+.main_skills_box .skills_elements{
+  display: block;
+  align-items: center;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 200;
+  width: 80%;
+  font-size: 12px;
+  padding-top: 10px;
+  margin-left: -200px;
+  margin-top: 150px;
+  
+}
+
+.main_skills_box .skills_elements2{
+  display: block;
+  align-items: center;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 200;
+  width: 80%;
+  padding-top: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: -230px;
+  margin-top: 340px;
+}
+
+.skills_buttons{
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content:center;
+  column-gap: 20px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content:space-around;
+}
+
+.skills_buttons ul{
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.skills_buttons ul li {
+  display: inline-block;
+  margin-left:50px;
+  margin-right:50px;
+  align-items: center;
+}
+
+.skills_buttons ul li button{
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fff;
+  color: green;
+  font-weight: 600;
+  border-radius: 15px;
+  border: 2px solid green;
+  background: linear-gradient(to right, black 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+
+.skills_buttons ul li button:hover{
+ cursor: pointer;
+ background-position: left bottom;
+ color: white;
+}
+
+.first_grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  overflow: hidden;
+}
+
+.my_skills_listed{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 100%;
+  min-height: 600px;
+  column-gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -500px;
+}
+
+.my_skills_listed .design_skills{
+  height: 350px;
+  flex-direction: column;
+  display: none;
+  margin-left: 0px;
+}
+
+
+.my_skills_listed .dev_skills{
+  display: flex;
+  flex-direction: column;
+  display: none;
+  margin-left: 0px;
+  
+}
+
+.my_skills_listed .my_hobbies{
+  display: flex;
+  flex-direction: column;
+  display: none;
+  margin-left: 0px;
+}
+
+.small_logo{
+  display: flex;
+  padding-left: 50px;
+  margin-top: 10px;
+}
+
+.small_logo img{
+  width: 40px;
+  height: 40px;
+  object-position: center;
+  border-radius: 10px;
+} 
+
+.small_logo .logo_image{
+  display: inline-block;
+  width: 100px;
+  padding-top: 2px;
+  padding-right: 35px;
+}
+
+.small_logo .description_skill{
+  padding-left: 5px;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.programming_pic{
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+width: 800px;
+text-align: center;
+}
+
+.programming_pic img{
+  opacity: 0.5;
+  border-radius: 5px;
+  width: 100%;
+  border-radius: 50px;
+  object-fit: contain;
+}
+
 }
